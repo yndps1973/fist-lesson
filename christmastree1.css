@@ -1,0 +1,36 @@
+#container{
+	background: white;
+	height:1500px;
+}	
+#ftrian{
+	width: 0px;
+	height: 100px;	
+	border-top: 50px solid white;
+	border-right: 150px solid white;
+	border-bottom: 100px solid green;
+	border-left: 150px solid white;
+	/*padding-left: 0px;*/
+	margin-left:500px;
+}
+#main{
+	background: blue;
+	width: 0px;
+	/*height:-100px;*/
+	/*height: 100px;*/
+	border-right: 200px solid white;
+	border-bottom: 150px solid green;
+	border-left: 200px solid white;
+	/*border-top: -100px solid white;*/
+	/*padding-left: 0px;*/
+	margin-left:450px;
+	margin-right:100px;
+	/*margin-top:1px;*/
+}
+#footer{
+	width: 50px;
+	height: 200px;
+	background: brown;
+	margin-left:620px;
+	/*float:left;*/
+
+}	
