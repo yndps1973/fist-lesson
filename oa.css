@@ -92,36 +92,70 @@
 
 }
 #footer{
-	width:972px;
-	height:861px;
+	height:800px;
 	background:pink;
 	margin-left:200px;
 }
+#lside{
+	display:block;
+	float:left;
+	width:220px;
+	
+	
+}
+
 #weather{
 	width: 215px;
-	border: 1px solid red;
+	border: 1px solid green;
 	margin-top: 5px;
+	
+
 }
 
 #weather table{
 	border-collapse: separate;
 	border-spacing: 3px;
+
+
 }
 
 #weather td{
 	float: left;
 	margin: 5px 10px 5px 10px;
+
 }
 
 #connect{
 	width: 215px;
 	height: 500px;
 	border: 1px solid red;
+	margin: 2px;
+
+
+
 }
 #link li{
-	list-style-type:square;
-	
-
-
+	list-style-type:disc;
+	list-style-position:inside;
+	margin-left: 10px;
 
 }
+
+
+
+
+#rside{
+	float:right;
+	background: yellow;
+	width: 550px;
+	height:500px;
+}
+
+#one{
+	width:250px;
+	height:100px;
+	margin:10px;
+	float:right;
+	border: 1px solid black;
+}
+
