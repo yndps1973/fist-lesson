@@ -1,0 +1,33 @@
+#container{
+	height: 1100px;
+	background-color: black;
+	margin-left: 100px;
+}
+#header{
+	width:972px;
+	height:94px;
+	background: grey url(./chinamobile/bg.gif);
+	margin-left:200px;
+
+#div{
+	background: grey;
+	float:right;
+}
+#div li{
+	float:left;
+
+}
+}
+#main{
+	border:2px solid red;
+	margin-left:200px;
+	width:972px;
+	height:240px;
+	background:yellow;
+}
+#footer{
+	width:972px;
+	height:861px;
+	background:pink;
+	margin-left:200px;
+}
