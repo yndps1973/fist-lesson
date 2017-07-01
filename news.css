@@ -1,0 +1,19 @@
+#news1{
+	background: green;
+	
+	text-indent: 20px;
+	text-align: center;
+	letter-spacing: 5px;
+	font: intalic bold 23px/46px "simhei";
+}
+.blockchain{
+	background: red;
+}
+#news2{
+	background: yellow;
+	text-indent: 20px;
+	text-align:center;
+	text-decoration: line-through;
+	letter-spacing:8px;
+	margin-top: 10px;
+}
