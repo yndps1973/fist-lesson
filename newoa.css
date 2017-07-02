@@ -1,0 +1,110 @@
+#contain{
+	background-color: black;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+#header{
+	height: 94px;
+	width: 987px;
+	background-image: url(./chinamobile/bg.gif);
+	margin-left: 180px;
+
+
+}
+#middle{
+	background: yellow;
+	height:150px;
+	width: 987px;
+	margin-left: 180px;
+	
+}
+#middle img{
+	float:left;
+}
+
+
+#sub{
+	background: yellowgreen;
+	width: 212px;
+	height: 140px;
+	float:left;
+}
+
+
+
+
+.clr{
+	width: 0px;
+	height: 0px;
+	clear: both;
+}
+
+#main{
+	height: 500px;
+	background: green;
+	width: 987px;
+	margin-left: 180px;
+
+}
+
+#lside{
+	background:red;
+	width: 750px;
+	height: 500px;
+	float:left;
+}
+#one{
+	width: 212px;
+	height:130px;
+	background: grey;
+	float:left;
+}
+
+#two{
+	width: 212px;
+	height:295px;
+	background: maroon;
+	float:left;
+}
+
+#three{
+	width: 528px;
+	height: 140ps;
+	float:left;
+	background: brown;
+}
+
+#four{
+	width:528px;
+	height:171px;
+	float:left;
+	background: orange;
+}
+
+#rside{
+	background: purple;
+	width:222px;
+	height: 400px;
+	float:left;
+
+}
+
+#five{
+	background: skyblue;
+	height: 300px;
+}
+
+#six{
+	background: blue;
+	height: 100px;
+}
+
+
+#footer{
+	background:pink;
+	width: 987px;
+	margin-left: 180px;
+	height: 40px;
+}
+

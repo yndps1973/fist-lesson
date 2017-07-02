@@ -52,8 +52,8 @@
 #main{
 	margin-left:200px;
 	width:972px;
-	height:140px;
-	background:white;
+	height:150px;
+	background:blue;
 }
 #reg{
 	width:215px;
@@ -88,74 +88,73 @@
 	margin-left: 5px;
 	margin-bottom: 2px
 	padding: 5px;
-
-
 }
+
 #footer{
-	height:800px;
-	background:pink;
 	margin-left:200px;
+	width:972px;
+	height:500px;
+	background:pink;
 }
+
 #lside{
-	display:block;
-	float:left;
-	width:220px;
-	
-	
+	width:215px;
+	height: 450px;
+	background: red;
+	float: left;
+
 }
 
 #weather{
-	width: 215px;
-	border: 1px solid green;
-	margin-top: 5px;
-	
-
+	width:212px;
+	height:100px;
+	background:skyblue;
 }
 
-#weather table{
-	border-collapse: separate;
-	border-spacing: 3px;
-
-
+#system{
+	width: 212px;
+	height: 300px;
+	background: grey;
 }
-
-#weather td{
-	float: left;
-	margin: 5px 10px 5px 10px;
-
-}
-
-#connect{
-	width: 215px;
-	height: 500px;
-	border: 1px solid red;
-	margin: 2px;
-
-
-
-}
-#link li{
-	list-style-type:disc;
-	list-style-position:inside;
-	margin-left: 10px;
-
-}
-
-
 
 
 #rside{
-	float:right;
-	background: yellow;
-	width: 550px;
-	height:500px;
+	float:left;
+	width: 750px;
+	height:700px;
 }
 
 #one{
-	width:250px;
+	width: 510px;
+	height:180px;
+	background: green;
+	margin: 5px;
+	float:left;
+}
+
+#two{
+	width:210px;
+	height:180px;
+	background: black;
+	float:left;
+	margin:10px 10px 10px 10px;
+	
+}
+
+
+#three{
+	width:510px;
 	height:100px;
-	margin:10px;
-	float:right;
-	border: 1px solid black;
+	float:left;
+	background: yellow;
+	margin: 5px;
+}
+
+#four{
+	width:210px;
+	height: 200px;
+	background:purple;
+	float:left;
+	margin:10px 10px 10px 10px;
 }
 
