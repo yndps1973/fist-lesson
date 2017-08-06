@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>touppercase</title>
+</head>
+<body>
+	<p id=word>I love hotpot restanurants in SiChuan.</p>
+	<script>
+	//newword=Object;
+    window.onload=function(){
+	var newword=document.getElementById("word").innerHTML.split(" ");
+    for(var i=0;i<newword.length;i++){
+    	var head=newword[i].substr(0,1).toUpperCase();
+    	//var result=head+newwword[i].substr(1);
+        //console.log(head);
+        // console.log(head+newword[i].substr(1));
+        //var result=head+newword[i].substr(1);
+        newword[i]=head+newword[i].substr(1);
+
+
+       //document.getElementById("word").innerHTML=result1.join("");
+
+       console.log(newword);
+       }
+	}
+	</script>
+</body>
+</html>
