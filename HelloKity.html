@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>HelloKitty</title>
+</head>
+<body>
+
+<div>
+<h1>My First Web Page</h1>
+
+<p id="demo">My First Paragraph.</p>
+	
+</div>
+<script>
+	var arr=[];    //赋值一个 空数组
+	str="HelloKitty";  //把要输出的内容赋值给一个变量
+	//var newarr=[];
+	document.getElementById("demo").innerHTML="My First";     //替换dome的文本内容
+	arr=document.getElementById("demo").innerHTML.split("");   //拆分成数组
+	var newstr=str.split("");                                   //将字符串拆分成数组
+	//console.log(arr) ;
+	console.log(newstr.reverse());                             //将数组反序排列
+	console.log(arr.reverse());
+
+	//console.log(arr) ;
+	//console.log(newstr.reverse());
+	
+	console.log(arr.join(""));                                //重新组合
+	console.log(newstr.join(""));
+	
+</script>
+
+
+</body>
+</html>
