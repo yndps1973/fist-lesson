@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ascend</title>
+</head>
+<body>
+    <input type="text" id="mynumber" value="2,45,1,14,1">
+	<button onclick="myfunction()">点我排序</button>
+	<p id="demo"></p>
+	<script>
+		function myfunction(){
+			var arr=document.getElementById("mynumber").value;
+		    var newarr=arr.split(",");
+		    newarr.sort(function(a, b){ 
+            return a - b; });
+
+
+		    console.log(newarr);
+		}
+	</script>
+
+</body>
+</html>
